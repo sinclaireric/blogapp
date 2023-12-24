@@ -1,11 +1,10 @@
 import { StyleSheet,Text, View } from 'react-native';
 
 
-
-export default function TabOneScreen() {
+export default function AddScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home page</Text>
+      <Text style={styles.title}>Add Blog post</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
     </View>
   );
